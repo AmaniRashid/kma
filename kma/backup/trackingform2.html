@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href=".../style1.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <title>Tracking Form Demo</title>
+    </head>
+    <body>
+        <form action="">
+            <div class="tracking form">
+                <h2>Tracking Form</h2>
+                <div class="form-img">
+                    <img src ="kma logo.jpg" alt="">
+                </div>
+
+                <div class="input-group">
+                    <input type="text" name="RequesteName" id="RN" required>
+                    <label for="requestename">Requeste Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" name="RequesteID"  id="ID" required>
+                    <label for="requesteid">Requeste ID</label>
+                </div>
+                <div>
+                   <p>
+                        <label>Equipment
+                        <select id="equipment" name="Equipment">
+                        <option value="" selected="selected">Select One</option>
+                        <option value="printer" >Printer</option>
+                        <option value="desktops" >Desktops</option>
+                        <option value="ups" >Ups</option>
+                        </select>
+                        </label> 
+                        </p>
+                        
+                <div class="input-group">
+                    <input type="text" name="Serial Number"  id="SerialNo" required>
+                    <label for="serialnumber">Serial Number</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="Tagno"  id="Tagno" required>
+                    <label for="tagnumber">Tag Number</label>
+                </div>
+                <p>
+                    <label>Pickup Date/Time
+                    <input type="datetime-local" name="pickup_time" required>
+                    </label>
+                    </p>
+                <div class="input-group">
+                    <input type="text" name="dropoff_place"  id="dop" required>
+                    <label for="dest">Dropoff Place</label>
+                </div>
+                <div>
+                    <p>
+                        <label>Expected Return Date/Timess
+                        <input type="datetime-local" name="Expected_time" required>
+                        </label>
+                        </p>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="Issuedby"  id="Issuedby" required>
+                    <label for="issuedby">Issued By</label>
+                </div> 
+                <div class="input-group lui  ">
+                    <!-- <input type="button" value="SUBMIT" class="submit-btn"> -->
+
+                    <button class="submit-btn">submit</button>
+                </form>
+                </div>               
+        </div>
+        
